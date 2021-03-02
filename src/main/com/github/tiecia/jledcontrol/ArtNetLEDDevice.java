@@ -1,4 +1,4 @@
-package jledcontrol;
+package com.github.tiecia.jledcontrol;
 
 import ch.bildspur.artnet.*;
 import java.awt.*;
@@ -52,7 +52,7 @@ public class ArtNetLEDDevice {
     }
 
     /**
-     * Creates an jledcontrol.ArtNetLEDDevice with the first universe defaulted to "0" and color order defaulted to "RGB".
+     * Creates an com.github.tiecia.jledcontrol.ArtNetLEDDevice with the first universe defaulted to "0" and color order defaulted to "RGB".
      * @param numOfLights the number of lights this device services. If controlling a pixel strip this number should
      *                    be the number of pixels on the strip.
      * @param hostname the hostname/IP address of the ArtNet controller.
@@ -62,7 +62,7 @@ public class ArtNetLEDDevice {
     }
 
     /**
-     * Creates an jledcontrol.ArtNetLEDDevice with the color order defaulted to "RGB"
+     * Creates an com.github.tiecia.jledcontrol.ArtNetLEDDevice with the color order defaulted to "RGB"
      * @param numOfLights the number of lights this device services. If controlling a pixel strip this number should
      *                    be the number of pixels on the strip.
      * @param firstUniverse the first universe to be sent to the ArtNet device.
@@ -73,7 +73,7 @@ public class ArtNetLEDDevice {
     }
 
     /**
-     * Creates an jledcontrol.ArtNetLEDDevice with no default values.
+     * Creates an com.github.tiecia.jledcontrol.ArtNetLEDDevice with no default values.
      * @param numOfLights the number of lights this device services. If controlling a pixel strip this number should
      *                    be the number of pixels on the strip.
      * @param firstUniverse the first universe to be sent to the ArtNet device.

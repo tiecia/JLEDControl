@@ -6,7 +6,7 @@
 
     <groupId>com.github.tiecia.jledcontrol</groupId>
     <artifactId>JLEDControl</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>JLEDControl</name>
     <description>Java library for controlling colored lights via ArtNet over one or more universes.</description>

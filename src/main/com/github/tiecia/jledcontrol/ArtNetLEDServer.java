@@ -1,4 +1,4 @@
-package jledcontrol;
+package com.github.tiecia.jledcontrol;
 
 import java.awt.Color;
 import java.util.HashMap;
@@ -6,19 +6,19 @@ import java.util.Map;
 
 public class ArtNetLEDServer {
     /**
-     * Stores all the Art Net LED Devices. Key is the name that is used to reference it. Value is the jledcontrol.ArtNetLEDDevice object.
+     * Stores all the Art Net LED Devices. Key is the name that is used to reference it. Value is the com.github.tiecia.jledcontrol.ArtNetLEDDevice object.
      */
     private Map<String, ArtNetLEDDevice> devices;
 
     /**
-     * Creates a empty jledcontrol.ArtNetLEDServer
+     * Creates a empty com.github.tiecia.jledcontrol.ArtNetLEDServer
      */
     public ArtNetLEDServer(){
         this.devices = new HashMap();
     }
 
     /**
-     * Creates an jledcontrol.ArtNetLEDServer with predefined devices.
+     * Creates an com.github.tiecia.jledcontrol.ArtNetLEDServer with predefined devices.
      * @param devices the devices to create the server with.
      */
     public ArtNetLEDServer(Map<String, ArtNetLEDDevice> devices){
